@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Personal Blog</title>
+    <link rel="stylesheet" href="style.css"> <!-- CSS dosyasını bağla -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header: Site Title -->
+    <header>
+        <img src="src/profil.jpg" alt="Ahmet Koca" style="width: 100px; height: auto; border-radius: 50%; margin-right: 10px;">
+        <h1>Ahmet Koca</h1>
+    </header>
+
+    <!-- Navigation bar with links -->
+    <nav>
+        <a href="https://www.linkedin.com/in/ahmet-koca-75a995258/" target="_blank" class="icon-link"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/ahmetkoca/" target="_blank" class="icon-link"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/AhmetKoca32" target="_blank" class="icon-link"><i class="fab fa-github"></i></a>
+    </nav>
+
+    <!-- Main Content: Introduction -->
+    <main>
+        <section id="about">
+            <h2>Hakkımda</h2>
+            <p> 
+                Merhaba! Ben Ahmet Koca, Süleyman Demirel Üniversitesi'nde Bilgisayar Mühendisliği 3. sınıf öğrencisiyim. 
+            </p>
+            <p>
+                Teknolojiye olan ilgim, yazılım dünyasına adım atmamı sağladı. Java, Spring Boot ve Flutter gibi programlama dilleri ve teknolojilerinde projeler geliştiriyorum.
+                Şu ana kadar birçok proje üzerinde çalıştım, özellikle de hastane randevu sistemi gibi gerçek dünyadaki problemlere çözüm sunan projeler geliştirmekten keyif alıyorum. Hedefim, mezun olduktan sonra yurt dışında çalışarak projelerimi global bir boyuta taşımak ve teknoloji alanında yenilikçi çözümler üretmek.
+            </p>
+            <p>
+                Boş zamanlarımda ise yeni teknolojileri öğrenmeye ve projelerime entegre etmeye çalışıyorum. Kendimi sürekli geliştirmek ve en iyi çözümleri üretmek için çalışıyorum.    
+            </p>
+        </section>
+
+        <!-- Embedded Video, Image, and Text -->
+        <section id="projects">
+            <h2>Projelerim</h2>
+            <p></p>
+
+            <h3>1-) Hospital Appointment System</h3>
+            <p>
+                Bu proje, hastane randevularını yönetmek için kapsamlı bir Java Spring Boot uygulamasıdır. 
+                Bu sistem, doktor ve hasta verilerinin etkin bir şekilde yönetilmesini, randevu planlamasını ve 
+                idari görevleri kolaylaştırır.
+            </p>
+        
+            <h2>Özellikler</h2>
+            <ul>
+                <li><strong>Doktor Yönetimi</strong>: Doktor profillerini ekleyin, güncelleyin ve kaldırın.</li>
+                <li><strong>Hasta Yönetimi</strong>: Hasta profillerini kaydedin ve yönetin.</li>
+                <li><strong>Randevu Planlaması</strong>: Randevu alın, yeniden planlayın ve iptal edin.</li>
+                <li><strong>Güvenli Giriş</strong>: Doktorlar, hastalar ve yöneticiler için rol tabanlı kimlik doğrulama.</li>
+                <li><strong>Admin Paneli</strong>: Raporları görüntüleyin, kullanıcıları yönetin ve hastane ayarlarını yapılandırın.</li>
+                <li><strong>Kullanıcı Dostu Arayüz</strong>: Hem doktorlar hem de hastalar için sezgisel kullanıcı arayüzü.</li>
+            </ul>
+            
+            <h1>2-) Library Management</h1>
+            <p>
+                Bu proje, Java Swing kullanarak basit bir kütüphane yönetim sistemini temsil etmektedir. 
+                Kullanıcı arayüzü üzerinden kitap ekleme, güncelleme, silme ve arama işlemleri yapılabilmektedir. 
+                Veritabanı olarak MySQL kullanılmış olup, JDBC ile bağlantı sağlanmaktadır.
+            </p>
+
+            <h2>Özellikler</h2>
+            <ul>
+                <li><strong>Kitap Ekleme</strong>: Yeni kitapların başlık ve yazar bilgileriyle sisteme eklenmesi.</li>
+                <li><strong>Kitap Güncelleme</strong>: Var olan bir kitabın başlık ve yazar bilgilerinin güncellenmesi.</li>
+                <li><strong>Kitap Silme</strong>: Sistemden bir kitabın ID bilgisiyle silinmesi.</li>
+                <li><strong>Kitap Arama</strong>: Kitap başlığına göre yapılan aramalar sonucunda bulunan kitapların listelenmesi.</li>
+            </ul>
+
+            <h1>3-) To-Do List Uygulaması</h1>
+            <p>
+                Bu Flutter tabanlı to-do list uygulaması, kullanıcıların günlük görevlerini takip etmelerine yardımcı olur. 
+                Kullanıcılar görev ekleyebilir, düzenleyebilir ve tamamlanmış görevleri işaretleyebilir.
+            </p>
+
+            <h2>Özellikler</h2>
+            <ul>
+                <li><strong>Görev Ekleme</strong>: Yeni görevler ekleyin ve listeye ekleyin.</li>
+                <li><strong>Görev Düzenleme</strong>: Var olan görevleri düzenleyin.</li>
+                <li><strong>Görev Silme</strong>: İstemediğiniz görevleri listeden silin.</li>
+                <li><strong>Görev Tamamlama</strong>: Tamamladığınız görevleri işaretleyin.</li>
+                <li><strong>Kullanıcı Dostu Arayüz</strong>: Temiz ve anlaşılır kullanıcı arayüzü.</li>
+                <li><strong>Çapraz Platform Desteği</strong>: Hem Android hem de iOS cihazlar için uyumlu.</li>
+            </ul>
+
+            <h3>Yapay Zeka ve Teknoloji Akademisi Başvuru Videom :</h3>
+            <video width="600" controls>
+                <source src="src/video.mp4" type="video/mp4">
+                Tarayıcınız bu videoyu desteklemiyor.
+            </video>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Ahmet Koca | Telefon: +90 505 275 22 03</p>
+    </footer>
+
+</body>
+</html>

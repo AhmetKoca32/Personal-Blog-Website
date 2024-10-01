@@ -1,0 +1,92 @@
+/* Temel stil ayarları */
+body {
+    font-family: 'Poppins', sans-serif; /* Poppins fontunu kullan */
+    margin: 0;
+    padding: 0;
+    background-color: #8c9399; /* Daha açık bir arka plan rengi */
+    color: #141414; /* Yazı rengi */
+}
+
+/* Başlık stil ayarları */
+header {
+    background-color: #363636; /* Başlık arka plan rengi */
+    color: white;
+    text-align: center;
+    padding: 2em 0; /* Daha fazla boşluk */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Gölge efekti */
+}
+
+/* Navigasyon stil ayarları */
+nav {
+    background-color: #696969; /* Navigasyon arka plan rengi */
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+    display: flex; /* Flexbox kullanarak düzenleme */
+    justify-content: space-around; /* Elemanları eşit aralıklarla dağıt */
+    padding: 10px 0; /* Yukarı ve aşağı boşluk */
+}
+
+nav a {
+    font-size: 25px; /* İkon boyutunu büyütün */
+    display: flex; /* Flexbox kullanarak içeriği hizala */
+    align-items: center; /* Dikey olarak ortala */
+    justify-content: center; /* Yatay olarak ortala */
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Geçiş efekti */
+}
+
+
+nav a:hover {
+    background-color: #6C757D; /* Hover rengi */
+    color: black;
+}
+
+/* Ana içerik stil ayarları */
+main {
+    padding: 20px;
+    max-width: 800px; /* Maksimum genişlik */
+    margin: 20px auto; /* Merkezleme */
+    background-color: #D3D3D3; /* Beyaz arka plan */
+    border-radius: 8px; /* Kenar yuvarlama */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+}
+
+/* Bölüm başlıkları */
+h2 {
+    color: #161616; /* Başlık rengi */
+    border-bottom: 2px solid #6C757D; /* Alt çizgi efekti */
+    padding-bottom: 10px; /* Alt boşluk */
+}
+
+/* Liste stil ayarları */
+ul {
+    list-style-type: none; /* Madde işaretlerini kaldır */
+    padding: 0;
+}
+
+li {
+    margin: 10px 0; /* Her madde arasında boşluk */
+    padding: 10px;
+    background-color: #6C757D; /* Liste öğeleri için arka plan */
+    border-radius: 5px; /* Kenar yuvarlama */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+}
+
+/* Video stil ayarları */
+video {
+    display: block;
+    margin: 20px auto; /* Merkezleme */
+    border-radius: 8px; /* Kenar yuvarlama */
+}
+
+/* Footer stil ayarları */
+footer {
+    background-color: #333; /* Footer arka plan rengi */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative; /* Sabit değil, içeriğe göre konumlanacak */
+    width: 100%;
+    margin-top: 20px; /* Üstten boşluk */
+}
