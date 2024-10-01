@@ -16,6 +16,7 @@ header {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Gölge efekti */
 }
 
+
 /* Navigasyon stil ayarları */
 nav {
     background-color: #696969; /* Navigasyon arka plan rengi */
@@ -36,7 +37,6 @@ nav a {
     transition: background-color 0.3s ease; /* Geçiş efekti */
 }
 
-
 nav a:hover {
     background-color: #6C757D; /* Hover rengi */
     color: black;
@@ -47,46 +47,60 @@ main {
     padding: 20px;
     max-width: 800px; /* Maksimum genişlik */
     margin: 20px auto; /* Merkezleme */
-    background-color: #D3D3D3; /* Beyaz arka plan */
+    background-color: #D3D3D3; /* Beyaz arka plan rengi */
     border-radius: 8px; /* Kenar yuvarlama */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Gölge efekti */
 }
 
-/* Bölüm başlıkları */
+/* Başlık ve alt başlık stilleri */
+h1, h2, h3 {
+    color: #333; /* Başlık renkleri */
+}
+
+header h1 {
+    color: #ffffff; /* İstediğiniz rengi buraya yazın */
+}
+
+h1 {
+    font-size: 2em; /* H1 boyutu */
+}
+
 h2 {
-    color: #161616; /* Başlık rengi */
-    border-bottom: 2px solid #6C757D; /* Alt çizgi efekti */
-    padding-bottom: 10px; /* Alt boşluk */
+    font-size: 1.5em; /* H2 boyutu */
 }
 
-/* Liste stil ayarları */
+h3 {
+    font-size: 1.2em; /* H3 boyutu */
+}
+
+/* Liste stilleri */
 ul {
-    list-style-type: none; /* Madde işaretlerini kaldır */
-    padding: 0;
+    list-style-type: disc; /* Noktalı liste */
+    margin-left: 20px; /* Sol boşluk */
 }
 
-li {
-    margin: 10px 0; /* Her madde arasında boşluk */
-    padding: 10px;
-    background-color: #6C757D; /* Liste öğeleri için arka plan */
-    border-radius: 5px; /* Kenar yuvarlama */
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+/* Video container stilleri */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    margin: 20px 0; /* Üst ve alt boşluk */
 }
 
-/* Video stil ayarları */
-video {
-    display: block;
-    margin: 20px auto; /* Merkezleme */
-    border-radius: 8px; /* Kenar yuvarlama */
-}
-
-/* Footer stil ayarları */
-footer {
-    background-color: #333; /* Footer arka plan rengi */
-    color: white;
-    text-align: center;
-    padding: 1em 0;
-    position: relative; /* Sabit değil, içeriğe göre konumlanacak */
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    margin-top: 20px; /* Üstten boşluk */
+    height: 100%;
+}
+
+/* Footer stilleri */
+footer {
+    text-align: center;
+    padding: 1em 0; /* Yukarı ve aşağı boşluk */
+    background-color: #363636; /* Arka plan rengi */
+    color: white; /* Yazı rengi */
+    position: relative; /* Konum ayarları */
 }
