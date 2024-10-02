@@ -144,6 +144,7 @@ ul {
 }
 
 /* Video container stilleri */
+/* Video container stilleri */
 .video-container {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 aspect ratio */
@@ -152,6 +153,12 @@ ul {
     margin: 20px 0;
     border-radius: 12px; /* Kenar yuvarlama ekleyin */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Gölge efekti (isteğe bağlı) */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Geçiş efektleri */
+}
+
+.video-container:hover {
+    transform: scale(1.05); /* Hover sırasında büyütme efekti */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Gölgeyi artır */
 }
 
 .video-container video {
@@ -162,6 +169,7 @@ ul {
     height: 100%;
     border-radius: 12px; /* Video kenarlarını da yuvarlayın */
 }
+
 
 /* Footer stilleri */
 footer {
