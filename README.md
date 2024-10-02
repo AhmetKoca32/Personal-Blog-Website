@@ -1,6 +1,6 @@
 # Ahmet Koca Kişisel Blog
 
-[Ahmet Koca](https://ahmetkoca.vercel.app)
+Blog Adresim --> [Bloğum](https://ahmetkoca.vercel.app)
 
 
 Bu kişisel blog, Ahmet Koca'nın projelerini ve teknolojik ilgi alanlarını tanıtmak amacıyla oluşturulmuştur. Blogda Java, Spring Boot ve Flutter ile geliştirilen projeler hakkında bilgiler bulabilirsiniz.
