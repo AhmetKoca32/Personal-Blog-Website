@@ -75,18 +75,36 @@ nav {
     padding: 10px 0;
 }
 
-/* Hakkımda, Projelerim, İletişim */
 nav a {
-    font-size: 18px; /* Yazı boyutu */
-    color: #222831; /* Lacivert renk */
+    font-size: 18px;
+    color: #222831;
     text-decoration: none;
-    font-weight: bold; /* Yazıyı kalınlaştır */
-    transition: color 0.3s ease;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease; /* Transform için geçiş ekle */
 }
 
 nav a:hover {
-    color: #141414; /* Hover rengi */
+    color: #141414;
+    transform: scale(1.2); /* Hover sırasında biraz büyüt */
 }
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px); /* Yukarıdan gelme efekti */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h1, h2, h3 {
+    color: #333;
+    animation: fadeIn 0.8s ease; /* Animasyonu başlat */
+}
+
 
 
 /* Ana içerik stil ayarları */
