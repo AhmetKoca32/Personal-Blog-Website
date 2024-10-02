@@ -7,6 +7,55 @@ body {
     color: #141414;
 }
 
+
+/* Diğer stil kurallarınız buraya gelecek... */
+
+/* Responsive Ayarlar */
+@media (max-width: 768px) {
+    /* Tablet ve altındaki boyutlar için ayarlamalar */
+    nav {
+        flex-direction: column; /* Dikey hizala */
+        padding: 20px 0; /* Daha fazla iç boşluk ekle */
+    }
+
+    nav a {
+        font-size: 16px; /* Yazı boyutunu küçült */
+        margin: 10px 0; /* İlişkili linkler arasında boşluk bırak */
+    }
+
+    main {
+        padding: 15px; /* Ana içerik için iç boşluğu ayarla */
+    }
+
+    h1 {
+        font-size: 1.8em; /* Başlık boyutunu ayarla */
+    }
+
+    h2 {
+        font-size: 1.4em; /* Alt başlık boyutunu ayarla */
+    }
+
+    h3 {
+        font-size: 1.1em; /* Üçüncü başlık boyutunu ayarla */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Mobil boyutlar için ayarlamalar */
+    nav a {
+        font-size: 14px; /* Yazı boyutunu daha da küçült */
+    }
+
+    h1 {
+        font-size: 1.5em; /* Başlık boyutunu küçült */
+    }
+
+    h2 {
+        font-size: 1.2em; /* Alt başlık boyutunu küçült */
+    }
+}
+
+
 /* Başlık stil ayarları */
 header {
     background-color: #1B262C;
