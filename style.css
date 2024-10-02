@@ -14,7 +14,7 @@ body {
 @media (max-width: 768px) {
     /* Tablet ve altındaki boyutlar için ayarlamalar */
     nav {
-        flex-direction: column; /* Dikey hizala */
+        /*flex-direction: column; /* Dikey hizala */
         padding: 20px 0; /* Daha fazla iç boşluk ekle */
     }
 
